@@ -9,6 +9,8 @@ import plotly.graph_objs as go
 import glob
 import flask
 
+results_root = '/Users/zhichao.lu/Documents/GitHub/results/Analysis_MNIST_Run_1'
+
 
 def generate_table(dataframe, max_rows=20):
     return html.Table(
@@ -23,7 +25,7 @@ def generate_table(dataframe, max_rows=20):
 
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
-results_root = '/Users/zhichao.lu/Documents/GitHub/results/Analysis_MNIST_Run_1'
+
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
