@@ -1,0 +1,8 @@
+# folders
+*__pycache__/
+*.idea/
+.ipynb_checkpoints/
+
+#files
+*.pyc
+*ipynb
